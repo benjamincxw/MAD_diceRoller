@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             rollDice()
 
             //pop up msg for a short time
-            val toast:Toast  = Toast.makeText(this, "Dice Rolled, you happy now?", Toast.LENGTH_SHORT)
+            val toast:Toast  = Toast.makeText(this, "Dice Rolled, happy?", Toast.LENGTH_SHORT)
             toast.show()
         }
         //roll the dice before the button preseseed
